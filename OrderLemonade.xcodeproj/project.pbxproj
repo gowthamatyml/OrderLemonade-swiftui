@@ -19,6 +19,18 @@
 		D428BBFD272A6BBD000198C2 /* LemonadeStand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D428BBFC272A6BBD000198C2 /* LemonadeStand.swift */; };
 		D428BBFF272A6BFA000198C2 /* Lemonade.swift in Sources */ = {isa = PBXBuildFile; fileRef = D428BBFE272A6BFA000198C2 /* Lemonade.swift */; };
 		D428BC01272A6C29000198C2 /* LemonadeStandLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D428BC00272A6C29000198C2 /* LemonadeStandLocations.swift */; };
+		D44E312727302F86009D1DF5 /* OrderLemonadeAppClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44E312627302F86009D1DF5 /* OrderLemonadeAppClipApp.swift */; };
+		D44E312927302F86009D1DF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44E312827302F86009D1DF5 /* ContentView.swift */; };
+		D44E312B27302F8B009D1DF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D44E312A27302F8B009D1DF5 /* Assets.xcassets */; };
+		D44E312E27302F8B009D1DF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D44E312D27302F8B009D1DF5 /* Preview Assets.xcassets */; };
+		D44E313327302F8B009D1DF5 /* OrderLemonadeAppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = D44E312427302F86009D1DF5 /* OrderLemonadeAppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D44E313927302FCE009D1DF5 /* LemonadeClipModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44E313827302FCE009D1DF5 /* LemonadeClipModel.swift */; };
+		D44E313A27303054009D1DF5 /* LemonadeStand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D428BBFC272A6BBD000198C2 /* LemonadeStand.swift */; };
+		D44E313B273031D3009D1DF5 /* Lemonade.swift in Sources */ = {isa = PBXBuildFile; fileRef = D428BBFE272A6BFA000198C2 /* Lemonade.swift */; };
+		D44E313C273031E7009D1DF5 /* LemonadeStandLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D428BC00272A6C29000198C2 /* LemonadeStandLocations.swift */; };
+		D44E313D273033A4009D1DF5 /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C7EBE52730266E00B47F24 /* MenuList.swift */; };
+		D44E313E273033D0009D1DF5 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C7EBE72730269D00B47F24 /* DetailView.swift */; };
+		D44E313F273033E4009D1DF5 /* OrderPlacedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C7EBE9273026BF00B47F24 /* OrderPlacedView.swift */; };
 		D4C7EBE62730266F00B47F24 /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C7EBE52730266E00B47F24 /* MenuList.swift */; };
 		D4C7EBE82730269D00B47F24 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C7EBE72730269D00B47F24 /* DetailView.swift */; };
 		D4C7EBEA273026BF00B47F24 /* OrderPlacedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C7EBE9273026BF00B47F24 /* OrderPlacedView.swift */; };
@@ -39,7 +51,28 @@
 			remoteGlobalIDString = D428BBC8272A4A3A000198C2;
 			remoteInfo = OrderLemonade;
 		};
+		D44E313127302F8B009D1DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D428BBC1272A4A3A000198C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D44E312327302F86009D1DF5;
+			remoteInfo = OrderLemonadeAppClip;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D44E313427302F8B009D1DF5 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				D44E313327302F8B009D1DF5 /* OrderLemonadeAppClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D428BBC9272A4A3A000198C2 /* OrderLemonade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderLemonade.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +90,14 @@
 		D428BBFC272A6BBD000198C2 /* LemonadeStand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeStand.swift; sourceTree = "<group>"; };
 		D428BBFE272A6BFA000198C2 /* Lemonade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lemonade.swift; sourceTree = "<group>"; };
 		D428BC00272A6C29000198C2 /* LemonadeStandLocations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeStandLocations.swift; sourceTree = "<group>"; };
+		D44E312427302F86009D1DF5 /* OrderLemonadeAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderLemonadeAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44E312627302F86009D1DF5 /* OrderLemonadeAppClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderLemonadeAppClipApp.swift; sourceTree = "<group>"; };
+		D44E312827302F86009D1DF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D44E312A27302F8B009D1DF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D44E312D27302F8B009D1DF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D44E312F27302F8B009D1DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D44E313027302F8B009D1DF5 /* OrderLemonadeAppClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OrderLemonadeAppClip.entitlements; sourceTree = "<group>"; };
+		D44E313827302FCE009D1DF5 /* LemonadeClipModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeClipModel.swift; sourceTree = "<group>"; };
 		D4C7EBE52730266E00B47F24 /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
 		D4C7EBE72730269D00B47F24 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		D4C7EBE9273026BF00B47F24 /* OrderPlacedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPlacedView.swift; sourceTree = "<group>"; };
@@ -84,6 +125,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D44E312127302F86009D1DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -93,6 +141,7 @@
 				D428BBCB272A4A3A000198C2 /* OrderLemonade */,
 				D428BBDC272A4A3E000198C2 /* OrderLemonadeTests */,
 				D428BBE6272A4A3E000198C2 /* OrderLemonadeUITests */,
+				D44E312527302F86009D1DF5 /* OrderLemonadeAppClip */,
 				D428BBCA272A4A3A000198C2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +152,7 @@
 				D428BBC9272A4A3A000198C2 /* OrderLemonade.app */,
 				D428BBD9272A4A3E000198C2 /* OrderLemonadeTests.xctest */,
 				D428BBE3272A4A3E000198C2 /* OrderLemonadeUITests.xctest */,
+				D44E312427302F86009D1DF5 /* OrderLemonadeAppClip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -167,6 +217,28 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		D44E312527302F86009D1DF5 /* OrderLemonadeAppClip */ = {
+			isa = PBXGroup;
+			children = (
+				D44E312627302F86009D1DF5 /* OrderLemonadeAppClipApp.swift */,
+				D44E312827302F86009D1DF5 /* ContentView.swift */,
+				D44E313827302FCE009D1DF5 /* LemonadeClipModel.swift */,
+				D44E312A27302F8B009D1DF5 /* Assets.xcassets */,
+				D44E312F27302F8B009D1DF5 /* Info.plist */,
+				D44E313027302F8B009D1DF5 /* OrderLemonadeAppClip.entitlements */,
+				D44E312C27302F8B009D1DF5 /* Preview Content */,
+			);
+			path = OrderLemonadeAppClip;
+			sourceTree = "<group>";
+		};
+		D44E312C27302F8B009D1DF5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D44E312D27302F8B009D1DF5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -177,10 +249,12 @@
 				D428BBC5272A4A3A000198C2 /* Sources */,
 				D428BBC6272A4A3A000198C2 /* Frameworks */,
 				D428BBC7272A4A3A000198C2 /* Resources */,
+				D44E313427302F8B009D1DF5 /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D44E313227302F8B009D1DF5 /* PBXTargetDependency */,
 			);
 			name = OrderLemonade;
 			productName = OrderLemonade;
@@ -223,6 +297,23 @@
 			productReference = D428BBE3272A4A3E000198C2 /* OrderLemonadeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		D44E312327302F86009D1DF5 /* OrderLemonadeAppClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D44E313727302F8B009D1DF5 /* Build configuration list for PBXNativeTarget "OrderLemonadeAppClip" */;
+			buildPhases = (
+				D44E312027302F86009D1DF5 /* Sources */,
+				D44E312127302F86009D1DF5 /* Frameworks */,
+				D44E312227302F86009D1DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrderLemonadeAppClip;
+			productName = OrderLemonadeAppClip;
+			productReference = D44E312427302F86009D1DF5 /* OrderLemonadeAppClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -244,6 +335,9 @@
 						CreatedOnToolsVersion = 13.0;
 						TestTargetID = D428BBC8272A4A3A000198C2;
 					};
+					D44E312327302F86009D1DF5 = {
+						CreatedOnToolsVersion = 13.0;
+					};
 				};
 			};
 			buildConfigurationList = D428BBC4272A4A3A000198C2 /* Build configuration list for PBXProject "OrderLemonade" */;
@@ -262,6 +356,7 @@
 				D428BBC8272A4A3A000198C2 /* OrderLemonade */,
 				D428BBD8272A4A3E000198C2 /* OrderLemonadeTests */,
 				D428BBE2272A4A3E000198C2 /* OrderLemonadeUITests */,
+				D44E312327302F86009D1DF5 /* OrderLemonadeAppClip */,
 			);
 		};
 /* End PBXProject section */
@@ -287,6 +382,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44E312227302F86009D1DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44E312E27302F8B009D1DF5 /* Preview Assets.xcassets in Resources */,
+				D44E312B27302F8B009D1DF5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +431,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D44E312027302F86009D1DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44E312927302F86009D1DF5 /* ContentView.swift in Sources */,
+				D44E313E273033D0009D1DF5 /* DetailView.swift in Sources */,
+				D44E313A27303054009D1DF5 /* LemonadeStand.swift in Sources */,
+				D44E313C273031E7009D1DF5 /* LemonadeStandLocations.swift in Sources */,
+				D44E313F273033E4009D1DF5 /* OrderPlacedView.swift in Sources */,
+				D44E312727302F86009D1DF5 /* OrderLemonadeAppClipApp.swift in Sources */,
+				D44E313927302FCE009D1DF5 /* LemonadeClipModel.swift in Sources */,
+				D44E313B273031D3009D1DF5 /* Lemonade.swift in Sources */,
+				D44E313D273033A4009D1DF5 /* MenuList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -339,6 +459,11 @@
 			isa = PBXTargetDependency;
 			target = D428BBC8272A4A3A000198C2 /* OrderLemonade */;
 			targetProxy = D428BBE4272A4A3E000198C2 /* PBXContainerItemProxy */;
+		};
+		D44E313227302F8B009D1DF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D44E312327302F86009D1DF5 /* OrderLemonadeAppClip */;
+			targetProxy = D44E313127302F8B009D1DF5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -462,6 +587,7 @@
 		D428BBEE272A4A3E000198C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -492,6 +618,7 @@
 		D428BBEF272A4A3E000198C2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -615,6 +742,74 @@
 			};
 			name = Release;
 		};
+		D44E313527302F8B009D1DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OrderLemonadeAppClip/OrderLemonadeAppClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OrderLemonadeAppClip/Preview Content\"";
+				DEVELOPMENT_TEAM = 83ZCG5LQC8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OrderLemonadeAppClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OrderLemonade;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yml.OrderLemonade.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG APPCLIP";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D44E313627302F8B009D1DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OrderLemonadeAppClip/OrderLemonadeAppClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OrderLemonadeAppClip/Preview Content\"";
+				DEVELOPMENT_TEAM = 83ZCG5LQC8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OrderLemonadeAppClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OrderLemonade;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yml.OrderLemonade.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = APPCLIP;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -650,6 +845,15 @@
 			buildConfigurations = (
 				D428BBF4272A4A3E000198C2 /* Debug */,
 				D428BBF5272A4A3E000198C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D44E313727302F8B009D1DF5 /* Build configuration list for PBXNativeTarget "OrderLemonadeAppClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D44E313527302F8B009D1DF5 /* Debug */,
+				D44E313627302F8B009D1DF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
